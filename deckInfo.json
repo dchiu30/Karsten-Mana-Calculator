@@ -1,0 +1,77 @@
+{
+    "Universal": {
+        "Colors":0,
+        "Scry1": 0,
+        "Scry2": 0,
+        "Cantrips": 0,
+        "Evolving Wilds": 0,
+        "Fabled Passage": 0,
+        "Field of Ruin": 0
+    },
+    "W": {
+        "Basics":0,
+        "Untapped Sources": 0,
+        "Fastlands": 0,
+        "Typed Sources": 0,
+        "Checklands": 0,
+        "Taplands": 0,
+        "Fragile Sources": 0,
+        "2CMC Sources": 0,
+        "3CMC Sources": 0
+    },
+    "U": {
+        "Basics":0,
+        "Untapped Sources": 0,
+        "Fastlands": 0,
+        "Typed Sources": 0,
+        "Checklands": 0,
+        "Taplands": 0,
+        "Fragile Sources": 0,
+        "2CMC Sources": 0,
+        "3CMC Sources": 0
+    },
+    "B": {
+        "Basics":0,
+        "Untapped Sources": 0,
+        "Fastlands": 0,
+        "Typed Sources": 0,
+        "Checklands": 0,
+        "Taplands": 0,
+        "Fragile Sources": 0,
+        "2CMC Sources": 0,
+        "3CMC Sources": 0
+    },
+    "R": {
+        "Basics":0,
+        "Untapped Sources": 0,
+        "Fastlands": 0,
+        "Typed Sources": 0,
+        "Checklands": 0,
+        "Taplands": 0,
+        "Fragile Sources": 0,
+        "2CMC Sources": 0,
+        "3CMC Sources": 0
+    },
+    "G": {
+        "Basics":0,
+        "Untapped Sources": 0,
+        "Fastlands": 0,
+        "Typed Sources": 0,
+        "Checklands": 0,
+        "Taplands": 0,
+        "Fragile Sources": 0,
+        "2CMC Sources": 0,
+        "3CMC Sources": 0
+    },
+    "C": {
+        "Basics":0,
+        "Untapped Sources": 0,
+        "Fastlands": 0,
+        "Typed Sources": 0,
+        "Checklands": 0,
+        "Taplands": 0,
+        "Fragile Sources": 0,
+        "2CMC Sources": 0,
+        "3CMC Sources": 0
+    }
+}
