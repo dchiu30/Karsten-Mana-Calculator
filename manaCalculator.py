@@ -66,15 +66,15 @@ class ProbabilityMap:
     def deckInfoToSources(universal, color, cmc):
         # We count fastlands as a full source, since a fastland will be a fully untapped source for cmc 1-3, then a tapland for cmc 4+, and our assumption for taplands is that as the game progresses, they approach a full mana source
         sources = color["Untapped Sources"] + color["Fastlands"]
-        if (cmc > 1):
-            sources += ProbabilityMap.cmcGreaterThanOne(universal, color, cmc)
         if (cmc > 2):
             sources += ProbabilityMap.cmcGreaterThanTwo(universal, color, cmc)
         if (cmc > 3):
             sources += ProbabilityMap.cmcGreaterThanThree(universal, color, cmc)
         if (cmc > 4):
             sources += ProbabilityMap.cmcGreaterThanFour(universal, color, cmc)
-        sources += ProbabilityMap.scries(universal, sources) + ProbabilityMap.cantrips(universal, sources)
+        if(cmc > 1):
+            sources += ProbabilityMap.cmcGreaterThanOne(universal, color, cmc)
+            sources += ProbabilityMap.scries(universal, sources) + ProbabilityMap.cantrips(universal, sources)
         return sources
 
     @staticmethod
