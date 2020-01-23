@@ -7,7 +7,7 @@ And uses the article as a basis for most of the calculations made. As a result, 
 The numbers from this calculator are approximations and not exact and will work best with decks that have 20-28 lands and 0-8 non-land sources
 
 ## Instructions
-1. Fill out `deckInfo.json` with all your relevant information
+1. Fill out `deckInfo.json` with all your relevant information using the text editor of your choice
 2. Run `manaCalculator.py`
 3. Read the results from `manaInfo.csv`
 
